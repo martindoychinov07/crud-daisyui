@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2023",
+    "module": "ESNext",
+    "lib": ["ES2023", "DOM"],
+    "jsx": "react-jsx",
+
+    "declaration": true,
+    "declarationMap": true,
+    "outDir": "dist",
+    "rootDir": "src",
+
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+
+    /* This is key for libraries + Vite: no need for .js extensions in source */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": false,
+
+    /* Node globals for vite.config.ts */
+    "types": ["node"]
+  },
+  "include": ["src"]
+}
